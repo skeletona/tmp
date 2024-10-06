@@ -6,7 +6,7 @@ You can try netcat command : nc -l -k  [port] (E.g nc -l -k  5002)
 
 # Set the host and the port.
 HOST = "147.45.163.48"
-PORT = 37449
+PORT = 39762
 
 def connect((host, port)):
 	s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
